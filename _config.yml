@@ -1,1 +1,24 @@
-name: OrsagoImports
+# Site settings
+#Jekyll does not parse changes to _config.yml in watch mode, you must restart Jekyll to see changes to variables.
+title: Orsago Imports
+email: contact@orsagoimports.com
+description: > # this means to ignore newlines until "baseurl:"
+  Quality Building industry products you can trust.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://orsagoimports.com" # the base hostname & protocol for your site
+
+#social not working yet
+facebook_link: https://www.facebook.com/Instaprop/
+twitter_link: https://twitter.com/Instaprop
+twitter_username: instaprop
+googleplus_link: https://plus.google.com/+Instaprop
+linkedin_link: https://www.linkedin.com/company-beta/18199103/
+instagram_link: https://www.instagram.com/insta_prop/
+
+# Build settings
+markdown: kramdown
+
+collections:
+  spaces:
+    output: true
+    permalink: /:market/:path/
