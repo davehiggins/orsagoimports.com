@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html%}
+
+<body class="body-wrapper  changeHeader ">
+  <div class="main-wrapper">
+
+{% include header.html %}
+
+    {{ content }}
+
+{% include modals/enquiry.html %}
+{% include footer.html %}
+
+</div>
+
+{% include modals/signup.html %}
+{% include modals/login.html %}
+
+</div>
+
+{% include footer.js.html %}
+<!-- removed olark partial -->
+</body>
+</html>

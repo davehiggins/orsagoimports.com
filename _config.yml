@@ -1,11 +1,42 @@
 # Site settings
 #Jekyll does not parse changes to _config.yml in watch mode, you must restart Jekyll to see changes to variables.
-title: Orsago Imports
+title: "Orsago Imports"
+logo_title: "Orsago Imports"
 email: contact@orsagoimports.com
 description: > # this means to ignore newlines until "baseurl:"
   Quality Building industry products you can trust.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://orsagoimports.com" # the base hostname & protocol for your site
+
+intro_h2: > # this means to ignore newlines until "baseurl:"
+  say goodbye to 9-5.
+intro_h1: > # this means to ignore newlines until "baseurl:"
+  Start freelancing today.
+intro_para: > # this means to ignore newlines until "baseurl:"
+  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+
+
+about_h2: > # this means to ignore newlines until "baseurl:"
+  Prestige helps you escape the daily grind.
+
+about_h3_a: > # this means to ignore newlines until "baseurl:"
+  Sky's the limit
+about_p_a: > # this means to ignore newlines until "baseurl:"
+  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+
+about_h3_b: > # this means to ignore newlines until "baseurl:"
+  BIG IDEAS
+about_p_b: > # this means to ignore newlines until "baseurl:"
+  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+
+about_h3_c: > # this means to ignore newlines until "baseurl:"
+  CREATIVE EXECUTION
+about_p_c: > # this means to ignore newlines until "baseurl:"
+  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+
+
+
+
 
 #social not working yet
 facebook_link: https://www.facebook.com/Instaprop/
@@ -14,6 +45,16 @@ twitter_username: instaprop
 googleplus_link: https://plus.google.com/+Instaprop
 linkedin_link: https://www.linkedin.com/company-beta/18199103/
 instagram_link: https://www.instagram.com/insta_prop/
+
+#Intro
+facebook_link: https://www.facebook.com/Instaprop/
+twitter_link: https://twitter.com/Instaprop
+twitter_username: instaprop
+googleplus_link: https://plus.google.com/+Instaprop
+linkedin_link: https://www.linkedin.com/company-beta/18199103/
+instagram_link: https://www.instagram.com/insta_prop/
+
+
 
 # Build settings
 markdown: kramdown

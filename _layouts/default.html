@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="ico/favicon.png">
 
-    <title>Prestige | Home</title>
+    <title> {{ site.title }} </title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.css" rel="stylesheet">
@@ -60,24 +60,38 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <h1><a class="navbar-brand scroll" href="#intro">Prestige</a></h1>
+              
+<!-- 
+              <h1><a class="navbar-brand scroll" href="#intro">{{ site.logo_title }}</a></h1> 
+-->
+
+              <a href="#intro" title="{{ site.logo_title }}" rel="home"><img src="../img/orsagoimports base logo.png" alt="{{ site.logo_title }}" title="{{ site.logo_title }}" height="60" width="380" style ="padding-top: 6px;"></a>
+
+
+
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav pull-right">
-                <li class="dropdown">
+                <li><a href="#intro">Home</a></li>
+                
+<!--                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="index-video.html" class="external">Home - Video</a></li>
                     <li><a href="index-app.html" class="external">Home - App</a></li>
                     <li><a href="index-agency.html" class="external">Home - Agency</a></li>
                   </ul>
-                </li>
+                </li> 
+-->
+
                 <li><a href="#about">About</a></li>
                 <li><a href="#featured1">Features</a></li>
                 <li class="hidden-sm"><a href="#testimonials">Testimonials</a></li>
+<!--                 
                 <li><a href="#pricing">Pricing</a></li>
                 <li><a class="hidden-sm login" href="#">Login</a></li>
-                <li><a class="signup" href="#">Sign up</a></li>
+                <li><a class="signup" href="#">Sign up</a></li> 
+-->
               </ul>
             </div>
           </div>
@@ -94,10 +108,13 @@
           <div class="container">
             <div class="row">
               <div class="carousel-caption-center colour-white">
-                <h2>Say goodbye to 9-5.</h2>
-                <h1>Start freelancing today.</h1>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.</p>
-                <p><a class="btn btn-lg btn-primary signup" href="#" role="button">Get started</a></p>
+                <h2> {{ site.intro_h2 }} </h2>
+                <h1> {{ site.intro_h1 }} </h1>
+                <p> {{ site.intro_para }} </p>
+<!-- 
+                <p><a class="btn btn-lg btn-primary signup" href="#" role="button">Get started</a></p> 
+-->
+              
               </div>
             </div>
           </div>
@@ -124,22 +141,22 @@
             <div class="icon-wrapper">
               <i class="fa fa-cloud icon-large"></i>
             </div>
-            <h3>Sky's the limit</h3>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+            <h3> {{ site.about_h3_a }} </h3>
+            <p> {{ site.about_h3_a }} </p>
           </div>
           <div class="col-sm-4 text-center overlay-text icons">
             <div class="icon-wrapper">
               <i class="fa fa-rocket icon-large"></i>
             </div>
-            <h3>Big Ideas</h3>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+            <h3> {{ site.about_h3_b }} </h3>
+            <p> {{ site.about_h3_b }} </p>
           </div>
           <div class="col-sm-4 text-center overlay-text icons">
             <div class="icon-wrapper">
               <i class="fa fa-lightbulb-o icon-large"></i>
             </div>
-            <h3>Creative Execution</h3>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+            <h3> {{ site.about_h3_c }} </h3>
+            <p> {{ site.about_h3_c }} </p>
           </div>
         </div><!-- /.row -->
       </div>
@@ -322,7 +339,7 @@
 
     <!-- Pricing
     ================================================== -->
-    <section id="pricing" class="dark">
+    <!-- <section id="pricing" class="dark">
 
       <div class="page-header text-center">
         <h3>Pricing</h3>
@@ -408,7 +425,7 @@
       </div>
 
     </section>
-
+ -->
 
     <!-- Call to Action
     ================================================== -->
