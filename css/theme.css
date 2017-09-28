@@ -447,8 +447,7 @@ blockquote {
 }
 .cbp-af-header.cbp-af-header-shrink {
   height: 70px;
-  background-color: white;
-  border-bottom: 1px solid #eee;
+  background-color: rgba(0, 0, 0, .5);
 }
 .cbp-af-header.cbp-af-header-shrink .dropdown-menu {
   position: absolute;
@@ -457,7 +456,7 @@ blockquote {
 .cbp-af-header.cbp-af-header-shrink h1,
 .cbp-af-header.cbp-af-header-shrink .nav a {
   line-height: 40px;
-  color: black;
+  color: white;
 }
 .cbp-af-header.cbp-af-header-shrink .nav a.btn {
   line-height: 1.7;
@@ -472,7 +471,7 @@ blockquote {
   margin: 0.6em 0;
 }
 .cbp-af-header.cbp-af-header-shrink h1 a {
-  color: black;
+  color: white;
 }
 /* Example Media Queries */
 @media screen and (max-width: 55em) {
