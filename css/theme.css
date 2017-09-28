@@ -1762,6 +1762,55 @@ section .overlay-text {
   color: #88b7b3;
   text-decoration: underline;
 }
+#values .carousel .carousel-control {
+  font-size: 3em;
+  background: none;
+}
+#values .carousel .carousel-control.left {
+  left: -100px;
+}
+#values .carousel .carousel-control.right {
+  right: -100px;
+}
+#values .carousel .carousel-indicators {
+  bottom: 0;
+}
+#values .carousel .carousel-indicators li,
+#values .carousel .carousel-indicators .active {
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+}
+#values .carousel blockquote {
+  margin: 0;
+  padding: 0;
+  min-height: 250px;
+}
+#values .carousel blockquote img {
+  width: 100px;
+  height: 100px;
+}
+#values .carousel blockquote p {
+  font-size: 1.3em;
+  line-height: 1.7;
+}
+#values .carousel blockquote small,
+#values .carousel blockquote .small {
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+}
+#values .carousel blockquote small:before,
+#values .carousel blockquote .small:before {
+  content: '';
+}
+#values .carousel blockquote a {
+  color: #88b7b3;
+}
+#values .carousel blockquote a:hover {
+  color: #88b7b3;
+  text-decoration: underline;
+}
 #portfolio .portfolio-item {
   margin-bottom: 0.15em;
 }
