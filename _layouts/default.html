@@ -83,8 +83,8 @@
 -->
 
                 <li><a href="#about">About</a></li>
-                <li><a href="#featured1">Features</a></li>
-                <li class="hidden-sm"><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#products">Products</a></li>
+                <li class="hidden-sm"><a href="#values">Values</a></li>
 <!--                 
                 <li><a href="#pricing">Pricing</a></li>
                 <li><a class="hidden-sm login" href="#">Login</a></li>
@@ -102,7 +102,7 @@
     <!-- Hero Banner
     ================================================== -->
     <div id="intro">
-        <div class="item background-cover" style="background: url('img/bg-featuredapp1.jpg')">
+        <div class="item background-cover" style="background: url('img/hkport.jpg')">
           <div class="container">
             <div class="row">
               <div class="carousel-caption-center colour-white">
@@ -166,13 +166,13 @@
 
     <!-- Featured Sections
     ================================================== -->
-    <section id="featured1" class="dark with-bg">
+    <section id="products" class="dark with-bg">
 
       <div class="container">
         <div class="row">
           <div class="col-sm-5 overlay-text">
             <div class="vertical-align">
-              <h2>Work to your own schedule</h2>
+              <h2>Products Work to your own schedule</h2>
               <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
             </div>
           </div>
@@ -184,31 +184,15 @@
     </section>
 
 
-    <section id="featured2" class="featured">
-
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-5 text-center">
-            <img class="margin-top img-responsive" src="img/imac.png" alt="Generic placeholder image" data-sr="enter left, hustle 20px" width="429">
-          </div>
-          <div class="col-sm-5 col-sm-offset-1">
-            <div class="vertical-align">
-              <h2>Effortless time management</h2>
-              <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
 
 
-    <!-- Testimonials
+
+    <!-- Values
     ================================================== -->
-    <section id="testimonials" class="dark">
+    <section id="values" class="dark">
 
       <div class="page-header text-center">
-        <h3>Testimonials</h3>
+        <h3>Values</h3>
         <h2>What People are saying</h2>
       </div>
 
@@ -425,8 +409,8 @@
     </section>
  -->
 
-    <!-- Call to Action
-    ================================================== -->
+ <!--     Call to Action
+    ==================================================
     <section class="cta text-center">
 
       <div class="container">
@@ -434,13 +418,45 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>Start freelancing now.</h2>
-            <p><a href="#" class="btn signup" role="button">Get started</a></p>
+            <p><a href="#" class="btn login" role="button">Contact Us</a>
+
+
+            </p>
           </div>
         </div>
 
       </div>
 
+    </section> -->
+    
+    <section id="featured2" class="featured">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 text-center">
+            <img class="margin-top img-responsive" src="img/imac.png" alt="Generic placeholder image" data-sr="enter left, hustle 20px" width="429">
+          </div>
+          <div class="col-sm-5 col-sm-offset-1">
+            <div class="vertical-align">
+              <h2>Contact Us</h2>
+                <form action="https://getsimpleform.com/messages?form_api_token=ff750ffa8405e9eebc5bf477981f3c08" method="post">
+                <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                  <input type='hidden' name='redirect_to' value="http://orsagoimports.com"/>
+                    <!-- all your input fields here.... -->
+                  <input type='text' name='test' />
+                  <input type='submit' value='Test form' />
+                </form>
+
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
+
+
+
 
 
     <!-- Footer
@@ -477,9 +493,12 @@
               </ul>
             </div>
             <div class="col-sm-3 col-md-3">
-              <h3>Documentation</h3>
+              <h3> Contact</h3>
               <ul class="list-unstyled">
                 <li><a href="#">Product Help</a></li>
+                
+
+
                 <li><a href="#">Developer API</a></li>
                 <li><a href="#">Product Markdown</a></li>             
               </ul>
@@ -498,22 +517,24 @@
 
 		</footer>
 
-    <div id="login" class="overlay overlay-content">
+<!--     <div id="login" class="overlay overlay-content">
   
       <button type="button" class="overlay-close">Close</button>
       <section class="login-part">
         <p class="login-overlay">
-          Log In
+          Contact Us
         </p>
-        <form method="post">
-          <input class="form-control" type="email" name="u" placeholder="Email" required="required" />
-          <input class="form-control" type="password" name="p" placeholder="Password" required="required" />
-          <button type="submit" class="btn btn-primary btn-block btn-large">Log me in</button>
-          <a href="#" class="forgot-pw">Forgot password? We can help!</a>
+
+        <form method="POST" action="http://formspree.io/contact@orsagoimports.com">
+                  <input type="email" name="email" placeholder="Your email">
+                  <textarea name="message" placeholder="Your message"></textarea></br>
+                  <button type="submit" class="btn btn-primary btn-block btn-large" >Send</button>
         </form>
        </section>
       
-    </div>
+    </div> -->
+
+    
 
     <div id="signup" class="overlay overlay-content">
   
