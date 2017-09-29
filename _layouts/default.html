@@ -269,7 +269,8 @@
             <p><button class="btn contact-button" type="button" role="button">Contact us</button></p>
             
             <div class='contact-form'>
-              <form method="POST" action="http://formspree.io/contact@orsagoimports.com" name="sentMessage" id="contactForm">
+              <form name="sentMessage" id="contactForm">
+              <!-- <form action="http://formspree.io/contact@orsagoimports.com" name="sentMessage" id="contactForm" method="POST" > -->
                 <div class='name'>
                   <input name="first_name" class='form-control first' placeholder='First Name' type='text' id="first_name" autofocus required data-validation-required-message="Please enter your first name">
                   <input name="last_name" class='last' placeholder='Last Name' type='text' id="last_name" required data-validation-required-message="Please enter your last name">
@@ -280,8 +281,11 @@
                 <div class='message'>
                   <textarea name="message" class="form-control" placeholder='Your message' id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
                 </div>
+
                 <div id="success"> </div> <!-- For success/fail messages -->
+                
                 <footer class="submit-button">
+
                   <button type="submit">Send message</button>
                 </footer>
               </form>
