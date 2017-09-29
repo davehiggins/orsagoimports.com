@@ -245,11 +245,21 @@
           <div class="col-sm-5 col-sm-offset-1">
             <div class="vertical-align">
               <h2>Contact Us</h2>
-              <form method="POST" action="http://formspree.io/contact@orsagoimports.com">
-              <input type="email" name="email" placeholder="Your email"> </br>
-              <textarea name="message" placeholder="Your message"></textarea></br>
-              <button type="submit">Send</button>
-              </form>
+
+                <form id='contact_form' method='POST'>
+                  <div class='large-12 columns'>
+                    <p id='thanks' style='display: none;'>
+                      Thanks for contacting us, we'll be in touch soon!
+                    </p>
+                  </div>
+                  <div class='medium-12 columns'>
+                    <input class='required' name='name' placeholder='NAME' type='text'>
+                    <input class='required email' name='email' placeholder='EMAIL' type='text'>
+                    <input class='required' name='subject' placeholder='SUBJECT' type='text'>
+                    <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
+                    <input class='button white' type='submit'>
+                  </div>
+                </form>
             </div>
           </div>
         </div>
@@ -287,18 +297,19 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../js/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/classie.js"></script>
-		<script src="js/cbpAnimatedHeader.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/scrollReveal.js"></script>
-    <script src="js/jquery.scrollTo.js" defer="defer"></script>
-    <script src="js/jquery.nav.js" defer="defer"></script>
-    <script src="js/imagesloaded.pkgd.min.js" defer="defer"></script>
-    <script src="js/isotope.min.js" defer="defer"></script>
-    <script src="js/jquery.magnific-popup.min.js" defer="defer"></script>
-    <script src="js/jqBootstrapValidation.js" defer="defer"></script>
-    <script src="js/custom.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/classie.js"></script>
+		<script src="../js/cbpAnimatedHeader.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/scrollReveal.js"></script>
+    <script src="../js/jquery.scrollTo.js" defer="defer"></script>
+    <script src="../js/jquery.nav.js" defer="defer"></script>
+    <script src="../js/imagesloaded.pkgd.min.js" defer="defer"></script>
+    <script src="../js/isotope.min.js" defer="defer"></script>
+    <script src="../js/jquery.magnific-popup.min.js" defer="defer"></script>
+    <script src="../js/jqBootstrapValidation.js" defer="defer"></script>
+    <script src="../js/custom.js"></script>
+    <script src="/js/contactform.js"></script>
 
 
   </body>
