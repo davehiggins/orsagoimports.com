@@ -8,21 +8,14 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://orsagoimports.com" # the base hostname & protocol for your site
 
-<<<<<<< HEAD
+
 intro_h2: > # this means to ignore newlines until "baseurl:"
   We Specialise in....
 intro_h1: > # this means to ignore newlines until "baseurl:"
    Importing Premium Quality Renovation and Building Products.
 intro_para: > # this means to ignore newlines until "baseurl:"
    For customers in the USA and Australia.
-=======
-intro_h2:
-  say goodbye to inferior goods.
-intro_h1: > # this means to ignore newlines until "baseurl:"
-  ORSAGO IMPORTS
-intro_para: > # this means to ignore newlines until "baseurl:"
-  Your gateway to quality imported Products 
->>>>>>> 4d18820a9d789b7c099741a238027d31e826b6be
+
 
 
 about_h2: > # this means to ignore newlines until "baseurl:"
@@ -67,11 +60,6 @@ values_h3_c: > # this means to ignore newlines until "baseurl:"
   STRONG BUSINESS RELATIONSHIPS
 values_p_c: > # this means to ignore newlines until "baseurl:"
   Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
-
-
-
-
-
 
 
 
