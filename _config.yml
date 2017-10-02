@@ -2,64 +2,58 @@
 #Jekyll does not parse changes to _config.yml in watch mode, you must restart Jekyll to see changes to variables.
 title: "Orsago Imports"
 logo_title: "Orsago Imports"
-email: contact@orsagoimports.com
+email: "contact@orsagoimports.com"
 description: > # this means to ignore newlines until "baseurl:"
-  Quality Building industry products you can trust.
+  "Quality Building industry products you can trust."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://orsagoimports.com" # the base hostname & protocol for your site
 
 
 intro_h2: > # this means to ignore newlines until "baseurl:"
-  We Specialise in....
+  "We Specialise in...."
 intro_h1: > # this means to ignore newlines until "baseurl:"
-   Importing Premium Quality Renovation and Building Products.
+   "Importing Premium Quality Renovation and Building Products."
 intro_para: > # this means to ignore newlines until "baseurl:"
-   For customers in the USA and Australia.
+   "For customers in the USA and Australia."
 
 
 
 about_h2: > # this means to ignore newlines until "baseurl:"
-  We Source and Import High Quality Home Renovation and Building Products.
+  "We Source and Import High Quality Home Renovation and Building Products."
 
 about_h3_a: > # this means to ignore newlines until "baseurl:"
-  PREMIUM QUALITY PRODUCTS
-about_p_a: > # this means to ignore newlines until "baseurl:"
-  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+  "PREMIUM QUALITY PRODUCTS"
+
 
 about_h3_b: > # this means to ignore newlines until "baseurl:"
-  HOME RENOVATION AND BUILDING INDUSTRIES
-about_p_b: > # this means to ignore newlines until "baseurl:"
-  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+  "HOME RENOVATION AND BUILDING INDUSTRIES"
+
 
 about_h3_c: > # this means to ignore newlines until "baseurl:"
-  STRONG BUSINESS RELATIONSHIPS
-about_p_c: > # this means to ignore newlines until "baseurl:"
-  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+  "STRONG BUSINESS RELATIONSHIPS"
+
 
 
 
 
 
 products_h2: > # this means to ignore newlines until "baseurl:"
-  OUR PRODUCTS ADD PERSONALITY AND STYLE TO YOUR HOME
+  "OUR PRODUCTS ADD PERSONALITY AND STYLE TO YOUR HOME"
 products_p: > # this means to ignore newlines until "baseurl:"
-  We focus on quality products with a timeless look that balances form and function.
+  "We focus on quality products with a timeless look that balances form and function."
 
 
 values_h3_a: > # this means to ignore newlines until "baseurl:"
-  PREMIUM QUALITY PRODUCTS
-values_p_a: > # this means to ignore newlines until "baseurl:"
-  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+  "PREMIUM QUALITY PRODUCTS"
+
 
 values_h3_b: > # this means to ignore newlines until "baseurl:"
-  HOME RENOVATION AND BUILDING INDUSTRIES
-values_p_b: > # this means to ignore newlines until "baseurl:"
-  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+  "HOME RENOVATION AND BUILDING INDUSTRIES"
+
 
 values_h3_c: > # this means to ignore newlines until "baseurl:"
-  STRONG BUSINESS RELATIONSHIPS
-values_p_c: > # this means to ignore newlines until "baseurl:"
-  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+  "STRONG BUSINESS RELATIONSHIPS"
+
 
 
 
