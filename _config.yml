@@ -8,12 +8,12 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://orsagoimports.com" # the base hostname & protocol for your site
 
-intro_h2: > # this means to ignore newlines until "baseurl:"
-  say goodbye to 9-5.
+intro_h2:
+  say goodbye to inferior goods.
 intro_h1: > # this means to ignore newlines until "baseurl:"
-  Start freelancing today.
+  ORSAGO IMPORTS
 intro_para: > # this means to ignore newlines until "baseurl:"
-  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+  Your gateway to quality imported Products 
 
 
 about_h2: > # this means to ignore newlines until "baseurl:"
