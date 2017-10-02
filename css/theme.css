@@ -320,7 +320,7 @@ blockquote {
   padding: 1em 0;
 }
 .navbar .navbar-nav .current > a {
-  color: #88b7b3 !important;
+  color: #008080 !important;
 }
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus {
@@ -435,7 +435,7 @@ blockquote {
   color: #88b7b3 !important;
 }
 .cbp-af-header .nav a:hover {
-  color: #88b7b3;
+  color: #008080;
   background: none;
 }
 /* Transitions and class for reduced height */
@@ -1500,7 +1500,7 @@ section h3 {
   font-size: 1em;
   font-weight: 600;
   text-transform: uppercase;
-  color: #88b7b3;
+  color: #008080;
   letter-spacing: 1px;
 }
 section p {
@@ -1544,7 +1544,6 @@ section.content h1 {
   font-size: 3em;
 }
 section.content h2 {
-  font-size: 3.5em;
   font-weight: 800;
   margin: 0.3em auto 0.5em;
   padding: 0em 3em;
@@ -2159,7 +2158,7 @@ footer.footer .icon {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  background-color: rgba(136, 183, 179, 0.4);
+  background-color: #008080;
   text-align: center;
   margin: 2em auto 0;
   padding: 3em 0;

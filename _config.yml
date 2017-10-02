@@ -9,30 +9,62 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://orsagoimports.com" # the base hostname & protocol for your site
 
 intro_h2: > # this means to ignore newlines until "baseurl:"
-  say goodbye to 9-5.
+  We Specialise in....
 intro_h1: > # this means to ignore newlines until "baseurl:"
-  Start freelancing today.
+   Importing Premium Quality Renovation and Building Products.
 intro_para: > # this means to ignore newlines until "baseurl:"
-  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+   For customers in the USA and Australia.
 
 
 about_h2: > # this means to ignore newlines until "baseurl:"
-  Prestige helps you escape the daily grind.
+  We Source and Import High Quality Home Renovation and Building Products.
 
 about_h3_a: > # this means to ignore newlines until "baseurl:"
-  Sky's the limit
+  PREMIUM QUALITY PRODUCTS
 about_p_a: > # this means to ignore newlines until "baseurl:"
   Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
 
 about_h3_b: > # this means to ignore newlines until "baseurl:"
-  BIG IDEAS
+  HOME RENOVATION AND BUILDING INDUSTRIES
 about_p_b: > # this means to ignore newlines until "baseurl:"
   Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
 
 about_h3_c: > # this means to ignore newlines until "baseurl:"
-  CREATIVE EXECUTION
+  STRONG BUSINESS RELATIONSHIPS
 about_p_c: > # this means to ignore newlines until "baseurl:"
   Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+
+
+
+
+
+products_h2: > # this means to ignore newlines until "baseurl:"
+  OUR PRODUCTS ADD PERSONALITY AND STYLE TO YOUR HOME
+products_p: > # this means to ignore newlines until "baseurl:"
+  We focus on quality products with a timeless look that balances form and function.
+
+
+values_h3_a: > # this means to ignore newlines until "baseurl:"
+  PREMIUM QUALITY PRODUCTS
+values_p_a: > # this means to ignore newlines until "baseurl:"
+  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+
+values_h3_b: > # this means to ignore newlines until "baseurl:"
+  HOME RENOVATION AND BUILDING INDUSTRIES
+values_p_b: > # this means to ignore newlines until "baseurl:"
+  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+
+values_h3_c: > # this means to ignore newlines until "baseurl:"
+  STRONG BUSINESS RELATIONSHIPS
+values_p_c: > # this means to ignore newlines until "baseurl:"
+  Donec sed odio dui. Etiam porta sem malesuada magna sem mollis sed odio dui malesuada euismod.
+
+
+
+
+
+
+
 
 
 
