@@ -6,8 +6,8 @@ logo_title: Orsago Imports
 email: contact@orsagoimports.com
 description:
   Quality Building industry products you can trust.
-baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://orsagoimports.com" # the base hostname & protocol for your site
+baseurl: / # the subpath of your site, e.g. /blog/
+url: http://orsagoimports.com # the base hostname & protocol for your site
 
 
 intro_h2:
