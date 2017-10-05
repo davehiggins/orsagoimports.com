@@ -1,73 +1,43 @@
+---
 # Site settings
 #Jekyll does not parse changes to _config.yml in watch mode, you must restart Jekyll to see changes to variables.
-title: "Orsago Imports"
-logo_title: "Orsago Imports"
-email: "contact@orsagoimports.com"
-description: > # this means to ignore newlines until "baseurl:"
-  "Quality Building industry products you can trust."
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://orsagoimports.com" # the base hostname & protocol for your site
+title: Orsago Imports
+logo_title: Orsago Imports
+email: contact@orsagoimports.com
+description:
+  Quality Building industry products you can trust.
+baseurl: / # the subpath of your site, e.g. /blog/
+url: http://orsagoimports.com # the base hostname & protocol for your site
 
 
-intro_h2: > # this means to ignore newlines until "baseurl:"
-  "We Specialise in...."
-intro_h1: > # this means to ignore newlines until "baseurl:"
-   "Importing Premium Quality Renovation and Building Products."
-intro_para: > # this means to ignore newlines until "baseurl:"
-   "For customers in the USA and Australia."
+intro_h2:
+  We Specialise in....
+intro_h1:
+   Importing Premium Quality Renovation and Building Products.
+intro_para:
+   For customers in the USA and Australia.
 
+about_h2:
+  We Source and Import High Quality Home Renovation and Building Products.
+about_h3_a:
+  PREMIUM QUALITY PRODUCTS
+about_h3_b:
+  HOME RENOVATION AND BUILDING INDUSTRIES
+about_h3_c:
+  STRONG BUSINESS RELATIONSHIPS
 
+products_h2:
+  OUR PRODUCTS ADD PERSONALITY AND STYLE TO YOUR HOME
+products_p:
+  We focus on quality products with a timeless look that balances form and function.
 
-about_h2: > # this means to ignore newlines until "baseurl:"
-  "We Source and Import High Quality Home Renovation and Building Products."
+values_h3_a:
+  PREMIUM QUALITY PRODUCTS
+values_h3_b:
+  HOME RENOVATION AND BUILDING INDUSTRIES
+values_h3_c:
+  STRONG BUSINESS RELATIONSHIPS
 
-about_h3_a: > # this means to ignore newlines until "baseurl:"
-  "PREMIUM QUALITY PRODUCTS"
-
-
-about_h3_b: > # this means to ignore newlines until "baseurl:"
-  "HOME RENOVATION AND BUILDING INDUSTRIES"
-
-
-about_h3_c: > # this means to ignore newlines until "baseurl:"
-  "STRONG BUSINESS RELATIONSHIPS"
-
-
-
-
-
-
-products_h2: > # this means to ignore newlines until "baseurl:"
-  "OUR PRODUCTS ADD PERSONALITY AND STYLE TO YOUR HOME"
-products_p: > # this means to ignore newlines until "baseurl:"
-  "We focus on quality products with a timeless look that balances form and function."
-
-
-values_h3_a: > # this means to ignore newlines until "baseurl:"
-  "PREMIUM QUALITY PRODUCTS"
-
-
-values_h3_b: > # this means to ignore newlines until "baseurl:"
-  "HOME RENOVATION AND BUILDING INDUSTRIES"
-
-
-values_h3_c: > # this means to ignore newlines until "baseurl:"
-  "STRONG BUSINESS RELATIONSHIPS"
-
-
-
-
-
-
-
-
-#social not working yet
-facebook_link: https://www.facebook.com/Instaprop/
-twitter_link: https://twitter.com/Instaprop
-twitter_username: instaprop
-googleplus_link: https://plus.google.com/+Instaprop
-linkedin_link: https://www.linkedin.com/company-beta/18199103/
-instagram_link: https://www.instagram.com/insta_prop/
 
 #Intro
 facebook_link: https://www.facebook.com/Instaprop/
@@ -82,7 +52,5 @@ instagram_link: https://www.instagram.com/insta_prop/
 # Build settings
 markdown: kramdown
 
-collections:
-  spaces:
-    output: true
-    permalink: /:market/:path/
+
+---
