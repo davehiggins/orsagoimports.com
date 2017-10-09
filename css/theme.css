@@ -1522,7 +1522,7 @@ section.dark {
   background: #2b2d35;
 }
 section.dark.with-bg {
-  background: url('../img/bg-content1.jpg') center center no-repeat;
+  background: url('../img/renderedw.jpg') center center no-repeat;
   background-size: cover;
 }
 section.dark h1,
