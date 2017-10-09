@@ -13,23 +13,48 @@ url: http://orsagoimports.com # the base hostname & protocol for your site
 intro_h2:
   We Specialise in....
 intro_h1:
-   Importing Premium Quality Renovation and Building Products.
+    Sourcing and Importing High Quality Home Renovation and Building Products.
 intro_para:
    For customers in the USA and Australia.
 
+###### ------- About
+
 about_h2:
-  We Source and Import High Quality Home Renovation and Building Products.
+  WHAT GUIDES AND DRIVES US
+
+# About A
 about_h3_a:
-  PREMIUM QUALITY PRODUCTS
+  HIGH QUALITY PRODUCTS
+about_p_a:
+  The quality of our products is reflected in their beautiful design, functionality and reliability.
+about_p_a2:
+  We ensure our products meet or exceed all relevant safety.
+
+# About b
 about_h3_b:
-  HOME RENOVATION AND BUILDING INDUSTRIES
+  GREAT MANUFACTURING PARTNERS
+about_p_b:
+  Our suppliers are crucial for achieving and maintaining high quality products.
+about_p_b2:
+  We partner with suppliers and manufacturers who share our high standards.
+
+# About c
 about_h3_c:
-  STRONG BUSINESS RELATIONSHIPS
+  CUSTOMER FOCUSED
+about_p_c:
+  We aim to exceed our customers’ expectations of our products and service.  
+about_p_c2: 
+  Through our online sales channels we are able to reach customers across a variety of locations.
+
+######-----Products
 
 products_h2:
-  OUR PRODUCTS ADD PERSONALITY AND STYLE TO YOUR HOME
+  OUR PRODUCTS...
 products_p:
-  We focus on quality products with a timeless look that balances form and function.
+  Are both stylish and functional. They include items selected for their beautiful design that become key features in a home as well as practical items most commonly needed by renovators and builders.
+
+
+#####----- Values
 
 values_h3_a:
   PREMIUM QUALITY PRODUCTS
