@@ -5,7 +5,7 @@ title: Orsago Imports
 logo_title: Orsago Imports
 email: contact@orsagoimports.com
 description:
-  Quality Building industry products you can trust.
+  Quality Kitchen and Food Preparation products you can trust.
 baseurl: / # the subpath of your site, e.g. /blog/
 url: http://orsagoimports.com # the base hostname & protocol for your site
 
@@ -13,7 +13,7 @@ url: http://orsagoimports.com # the base hostname & protocol for your site
 intro_h2:
   We Specialise in....
 intro_h1:
-    Sourcing and Importing High Quality Home Renovation and Building Products.
+    Sourcing and Importing High Quality Kitchen and Food Preparation Products.
 intro_para:
    For customers in the USA and Australia.
 
@@ -51,7 +51,7 @@ about_p_c2:
 products_h2:
   OUR PRODUCTS...
 products_p:
-  Are both stylish and functional. They include items selected for their beautiful design that become key features in a home as well as practical items most commonly needed by renovators and builders.
+   Incorporate style and functionality. They enable our customers to prepare nutritious food and beverages in the comfort of their home. The quality and design of our products ensures they become cherished household items.
 
 
 #####----- Values
